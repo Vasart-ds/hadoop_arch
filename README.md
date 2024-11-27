@@ -39,7 +39,7 @@ Hadoop предоставляет два основных интерфейса �
 | Изменяет права доступа к указанному файлу или каталогу.                                               | `hdfs dfs -chmod <mode> <path>`              | `hdfs dfs -chmod 777` <br>`/home/data`                                   |     |
 | Изменяет владельца и группу указанного файла или каталога.                                            | `hdfs dfs -chown <owner>:<group> <path>`     | `hdfs dfs -chown` <br>`admin:management` <br>`/user/hive/warehouse`      |     |
 | Отображает информацию о файловой системе HDFS.                                                        | `hdfs dfs -df <path>`                        | `hdfs dfs -df /user/hive/warehpuse`                                      |     |
-| Показывает информацию о файле или каталоге по указанному пути.                                        | `hdfs dfs -stat <path>`                      | `hdfs dfs -stat` <br>`/user/hive/warehouse`                              |     |
+| Показывает информацию о файле или каталоге по указанному пути.                                        | `hdfs dfs -stat <path>`                      | `hdfs dfs -stat` <br>`/user/hive/warehouse`                              |     
 
 Больше команд: https://docs.arenadata.io/ru/ADH/current/references/hdfs-cheatsheet.html
 
