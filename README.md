@@ -52,7 +52,7 @@ Hadoop предоставляет два основных интерфейса �
 ![Pasted image 20241128003615.png](https://github.com/Vasart-ds/hadoop_arch/blob/master/Pasted%20image%2020241128003615.png)
 ![Pasted image 20241128003650.png](https://github.com/Vasart-ds/hadoop_arch/blob/master/Pasted%20image%2020241128003650.png)
 3. **Работа с HDFS:** 
-	1. Входим в Hadoop: `docker exec -it namenode /bin/bash
+	1. Входим в Hadoop: `docker exec -it namenode /bin/bash`
 	2. Проверяем окружение HDFS: `hdfs dfs -ls /`
 ![Pasted image 20241128004340.png](https://github.com/Vasart-ds/hadoop_arch/blob/master/Pasted%20image%2020241128004340.png)
 
